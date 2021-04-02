@@ -63,6 +63,10 @@ img {
   display: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /*------------- header --------------*/
 .header {
   position: fixed;
@@ -865,8 +869,8 @@ h1 {
     margin-bottom: 40px;
   }
   .item-mid .media {
-    -webkit-box-orient: vertical;
-    -webkit-boex-direction: column;
+    -webkit-boxdirection: normal;
+        -ms-flex-direction: column;
             flex-direction: column;
   }
   .item-mid .media-image img {
